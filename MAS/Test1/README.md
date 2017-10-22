@@ -28,6 +28,20 @@ V uz pridanom objekte `service` pomocou `+` pri `Resource sets (alternatives)` p
 Statistika
 ===========
 
+Ako dlho (v minutach) bude cestujuci cakat na zaciatok obsluhy.
+----------------------------------------------------------------------------------------
+Ako prve potrebujeme o cestujucom vediet kedy zacal cakat. Pre nas najlepsie je vytvorit parameter `parStartWaiting` v nasom agentovi. Agenta je potrebne vytvorit, ak este nie je vytvoreny.
+`parStartWaiting` nastavime na `double` a default value na `0`. Agenta mame pre statisticu vytvoreneho.
+
+Potrebujeme vytvorit statisticu. Mozeme ju nazvat `statWaitingTime` a nastavime na `Discrete` (malo by byt nastavene defaultne).
+V objekte `service` v casti `Action` -> `On enter` pridame java kod. Najskor naplnime `agent.parStartWaiting = time();`. Teda agent prave zacal cakat.
+Nasledne v objekte `service` v casti `Action` -> `On enter delay` pridame potrebne data do statistiky.. `statWaitingTime.add(time() - agent.parStartOfWaiting);` aktualny cas - zaciatok cakania nam da dlzku cakania v rade. 
+V statistike dlzky cakania mame vsetko co treba 
+
+
+Aký bude priemerný počet čakajúcich cestujúcich v rade
+------------------------------------------------------
+
 
 Replikacie
 ==========
