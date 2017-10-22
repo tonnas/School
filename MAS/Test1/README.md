@@ -37,6 +37,7 @@ Potrebujeme vytvorit statisticu. Mozeme ju nazvat `statWaitingTime` a nastavime 
 V objekte `service` v casti `Action` -> `On enter` pridame java kod. Najskor naplnime `agent.parStartWaiting = time();`. Teda agent prave zacal cakat.
 Nasledne v objekte `service` v casti `Action` -> `On enter delay` pridame potrebne data do statistiky.. `statWaitingTime.add(time() - agent.parStartOfWaiting);` aktualny cas - zaciatok cakania nam da dlzku cakania v rade. 
 V statistike dlzky cakania mame vsetko co treba 
+![Screenshot](serviceActions.png)
 
 
 Aký bude priemerný počet čakajúcich cestujúcich v rade
