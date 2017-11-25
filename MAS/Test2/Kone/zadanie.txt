@@ -1,0 +1,19 @@
+[MAS] Dnesne zadanie o 6 s Martonom:
+- otvorene od 9:00 - 20:00 (nie som si isty tym 9:00)
+- rozdelenie prichodov (8 + exp(1.0/112) v sekundach)
+- ako prve pridu zakaznici k pokladni tvori sa tam jeden rad a su tam dve predavacky listkov ktore maju spolocnu prestavku od 12:00 - 12:30 
+a pri pokladni je rozdelenie triangular(0.5, 1.1, 2) min
+- do systemu chodi rovnako vela muzov ako zien
+- 45% muzov a 20% zien ide rovno do MiniZoo ostatni na spolocnu jazdu na konoch
+- na jazdu na konoch ide minimalne 10 clenna skupina a maximalne 12 clenna( toto nikto nevedel ako sa ma spravit 
+tak to po 30-40min marton zmenil ze iba 10 clenna bude vzdy) ak vsak bude v rade viac ako 10 ludi tak navstevnik odide a ide do MiniZoo
+,jazda na konoch trva 40 min
+- pre tych ktory isli priamo do MiniZoo je trvanie v zoo exp(1.0/45)min a pre tych ktory odisli od jazdy na koni 
+kvoli dlhej rade je rovnomerne s minimom 20 a maximom 30. Ti ktori odisli od jazdy na koni kvoli dlhej rade a vosli do minizoo tak 
+ked z nej vyjdu tak este raz to pojdu skusit na kone a ak tam znovu bude dlha rada tak odidu natrvalo... ostatni klasicky odchadzaju z minizoo prec... 
+kazdych 90 min je v MiniZoo udrzba a trva 7 min ... nemoze tam vtedy nikto vojst ale ti co uz su tam tak ti tam aj ostavaju
+----------------------------------------------------
+vypocitat trebalo: 
+priemernu radu pred konmi (v min)
+cas ktory stravili muzi v systeme
+doba cakania pred konmi (v min)

@@ -1,0 +1,12 @@
+[MAS] Stvrtok 7:00 p.Jankovic
+cca takto.
+plaveren otvorena od x do y . Chodi tam 60% zien 40% muzov. pri vstupe sa je pokladna kde robia 3ja zamestnanci s prestavkou od 12 do 13 , 
+ak su vytazeni pomaha im brigadnik, cez prestavku robi len brigadnik.Vybavenie trva exp(3) minuty.ludia odidu po 15minutach.. 
+x% muzov a y% zien prislo uz v plavkach takze isli rovno k bazenom kde sa zdrzia po dobu ktora je v text. subore (vyslo triangular) . 
+75% ludi islo do kabinok pri bazene a zvysok do kabinok pri vstupe, ich kapacita je 4 a tvori sa pred nimi rad. 
+Zeny sa prezliekaju triangular(x,y,z) muzi triangular(p,q,r) . potom idu do bazenov. 
+Po okupani idu do kabinok pri bazene kde sa prezliekaju triangualar(a,b,c) ...kabinka pri bazene sa upratuje kazde 3 hodiny po 10 minut...
+-----
+kolko % ludi odislo
+cas v modeli pre zeny ktore neodisli z radu
+ako dlho sa priemerne caka v kabinke pri bazene

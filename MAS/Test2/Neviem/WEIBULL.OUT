@@ -1,0 +1,46 @@
+
+	Distribution Summary
+
+Distribution:	Weibull      
+Expression:	39 + WEIB(137, 1.05)
+Square Error:	0.000082
+
+Chi Square Test
+  Number of intervals	= 7
+  Degrees of freedom 	= 4
+  Test Statistic     	= 35.4
+  Corresponding p-value	< 0.005
+
+Kolmogorov-Smirnov Test
+  Test Statistic	= 0.016
+  Corresponding p-value	> 0.15
+
+	Data Summary
+
+Number of Data Points	= 5000
+Min Data Value       	= 39
+Max Data Value       	= 1.2e+003
+Sample Mean          	= 178
+Sample Std Dev       	= 139
+
+	Histogram Summary
+
+Histogram Range    	= 39 to 1.2e+003
+Number of Intervals	= 10
+
+
+==================================================================
+Int.   No. of               Probability           Cumulative      
+No.    Data Pts.   x        Density               Distribution    
+------------------------------------------------------------------
+                            Data   Function       Data   Function   
+   0  2850       156.      0.570      0.571      0.570      0.571
+   1  1244       272.      0.249      0.255      0.819      0.826
+   2   511       389.      0.102      0.105      0.921      0.931
+   3   224       505.     0.0448     0.0420      0.966      0.973
+   4    84       622.     0.0168     0.0165      0.983      0.990
+   5    52       738.     0.0104    0.00639      0.993      0.996
+   6    22       855.    0.00440    0.00245      0.997      0.999
+   7     7       971.    0.00140   0.000930      0.999      0.999
+   8     5  1.09e+003    0.00100   0.000351       1.00       1.00
+   9     1  1.20e+003   0.000200   0.000132       1.00       1.00

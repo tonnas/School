@@ -1,0 +1,17 @@
+Fit All
+
+Document:  C:\Users\hruby4\Desktop\Test2_Hruby\posilnovnaA.txt
+Data File: C:\Users\hruby4\Desktop\Test2_Hruby\posilnovnaA.txt
+
+
+Function       Sq Error
+-----------------------
+Erlang         4.98e-005
+Exponential    4.98e-005
+Weibull        8.17e-005
+Gamma          0.000758
+Beta           0.000898
+Lognormal      0.00814
+Normal         0.0975
+Triangular     0.22
+Uniform        0.3
